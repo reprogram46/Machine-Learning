@@ -57,7 +57,7 @@ def main():
 	except FileNotFoundError:
 		print(' ## No dataset found. Creating a new dataset.')
 		from os import system as cmd
-		cmd("mkdir {} && touch {}".format(df_dir, df_name))
+		cmd("touch {}/{}".format(df_dir, df_name))  ## works only for linux systems ##
 		# now, file is made #
 		write_once = open(df_loc, 'wb')
 		# write_once.dump([], df_handle)
@@ -67,6 +67,6 @@ def main():
 	add()
 	print('\nAll values are to be on a scale of 0 to 100 (both inclusive).')
 	print("Type 'exit' anytime to quit from the program.\n")
-	
+
 if __name__ == '__main__':
 	main()

@@ -1,0 +1,2 @@
+A sample of 'humanai' with limited features and functionality.
+(meant just for testing purposes)h

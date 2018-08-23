@@ -1,0 +1,13 @@
+ABOUT humanai:
+Project 'humanai' is a simple use of the decision-tree algorithm.
+
+EXAMPLE:
+Suppose John has python3 installed, and starts the program up.
+John launches the file 'learn.py', and is asked about some inputs, regarding a person's characteristics.
+John thinks about the people he knows, and with one person in mind at a time, he responds.
+
+Now, after repititive data-feeding, John wonders if he can trust his new friend.
+John opens up his machine, and this time, opens 'predict.py'.
+He tries his best to rate his friend's characteristics.
+Upon entering the last characteristic, John gets what his machine thinks about this new guy
+(based on what it was made to think about all those previous guys).
